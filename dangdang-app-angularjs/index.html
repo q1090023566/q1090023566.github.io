@@ -15,6 +15,7 @@
             <div ng-view>
 
             </div>
+            <!-- 底部导航start -->
             <div class="weui-tabbar"  ng-controller='mainController'>
                 <a href="#/" ng-click='linkTo(0)' class="weui-tabbar__item {{selectedIndex==0?'weui-bar__item_on':''}}">
                     <img src="./assets/images/icon_tabbar.png" alt="" class="weui-tabbar__icon">
@@ -33,6 +34,7 @@
                     <p class="weui-tabbar__label">联系我</p>
                 </a>
             </div>
+            <!-- 底部导航end -->
         </div>
     </div>
     <script src="assets/lib/angular.js"></script>
