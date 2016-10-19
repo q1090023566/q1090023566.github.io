@@ -19,4 +19,5 @@ app.factory('commonService',['$http',function($http){
       console.dir(err);
     });
   };
+  return service;
 }]);
