@@ -8,12 +8,9 @@
     <title>当当网热搜榜</title>
     <link rel="stylesheet" href="assets/lib/weui/weui.css">
     <style>
-  html,body{
-    height: 100%;
-  }
-  *{
-    box-sizing: border-box;
-  }
+    .footer-nav{
+      position: fixed;
+    }
   </style>
 </head>
 
@@ -24,7 +21,7 @@
 
             </div>
             <!-- 底部导航start -->
-            <div class="weui-tabbar"  ng-controller='mainController'>
+            <div class="weui-tabbar footer-nav"  ng-controller='mainController'>
                 <a href="#/" ng-click='linkTo(0)' class="weui-tabbar__item {{selectedIndex==0?'weui-bar__item_on':''}}">
                     <img src="./assets/images/icon_tabbar.png" alt="" class="weui-tabbar__icon">
                     <p class="weui-tabbar__label">首页</p>
@@ -51,6 +48,7 @@
     <script src="assets/api/service.js"></script>
     <script src="assets/controllers/main_controller.js"></script>
     <script src="assets/controllers/book_controller.js"></script>
+    <script src='assets/controllers/book_list_controller.js'></script>
 </body>
 
 </html>
