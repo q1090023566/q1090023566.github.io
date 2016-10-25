@@ -233,7 +233,7 @@ var canbs=function(){
     	if (con.style.display=="block") {
     		deg+=4;
 	        bsT(deg);
-	        if(deg>288){
+	        if(deg>252){
 	            clearInterval(time);
 	        }
 	    }
@@ -256,7 +256,7 @@ var ps=function(){
     	if (con.style.display=="block") {
     		deg+=4;
 	        psT(deg);
-	        if(deg>288){
+	        if(deg>216){
 	            clearInterval(time);
 	        }
 	    }

@@ -1,0 +1,24 @@
+/*app-detail*/
+.guess ul li img {
+	height: 72px\9;
+	max-height: 72px\9;
+}
+@media screen and (min-width:0\0) {
+	.and-icon {
+		background-position: 1px 0;
+	}
+	.ios-icon {
+		background-position: -17px 0;
+	}
+}
+
+/*应用下载*/
+.hotApp .rank span{
+	background-color: #FF5555\9;
+}
+
+/*关于我们*/
+.breadcrumb>li {
+	display: block;
+	float: left;
+}
