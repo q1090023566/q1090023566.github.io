@@ -1,0 +1,1426 @@
+body, div, ul, ol, li, dl, dt, dd, h1, h2, h3, h4, h5, h6, p, span, em, strong, img, form, fieldset, input, textarea, button, pre, table, tr, th, td, blockquote, code, label, cite, i, dialog, figure, hgroup {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    font-size: 12px;
+    font-family: 微软雅黑;
+    color: #333;
+    background: #fff;
+}
+
+:focus {
+    outline: 0;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-size: 100%;
+    font-weight: normal;
+}
+
+fieldset, img {
+    border: 0;
+}
+
+ul, ol, li {
+    list-style-type: none;
+}
+
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+
+caption, th, tr, td {
+    text-align: left;
+}
+
+u, ins {
+    text-decoration: none;
+}
+
+label {
+    cursor: pointer;
+}
+
+select, input, img {
+    vertical-align: middle;
+}
+
+input, textarea, select {
+    font-family: inherit;
+    font-size: inherit;
+    font-weight: inherit;
+    *font-size: 100%;
+    resize: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+.fl {
+    float: left;
+}
+
+.fr {
+    float: right;
+}
+
+.clearfix:after {
+    content: ".";
+    display: block;
+    height: 0;
+    clear: both;
+    visibility: hidden;
+}
+
+.clearfix {
+    zoom: 1;
+    display: inline-block;
+    _height: 1px;
+}
+
+*html .clearfix {
+    height: 1%;
+}
+
+* + html .clearfix {
+    height: 1%;
+}
+
+.clearfix {
+    display: block;
+}
+
+#head {
+    width: 100%;
+    height: 80px;
+    background: #005d8c;
+}
+
+#top {
+    width: 100%;
+    height: 558px;
+    background: url(http://img.haima.me/images/freeapp/hmge/images/bg.jpg) center top no-repeat;
+}
+
+.top_box {
+    width: 980px;
+    height: 588px;
+    margin: 0 auto;
+    position: relative;
+}
+
+.byy {
+    width: 393px;
+    height: 58px;
+    background: url(http://img.haima.me/images/freeapp/hmge/images/breakjira.png) no-repeat;
+    position: absolute;
+    top: 86px;
+    left: 0;
+    z-index: 2;
+}
+
+.freeapp {
+    width: 256px;
+    height: 79px;
+    background: url(http://img.haima.me/images/freeapp/hmge/images/freedownload.png) no-repeat;
+    position: absolute;
+    top: 190px;
+    left: 0;
+    z-index: 2;
+}
+
+.mobiledown {
+    width: 226px;
+    height: 60px;
+    background: url(http://img.haima.me/images/freeapp/hmge/images/mobiledownload.png);
+    display: block;
+    position: absolute;
+    top: 309px;
+    left: 0;
+    z-index: 2;
+}
+
+.pcdown {
+    width: 226px;
+    height: 60px;
+    background: url(http://img.haima.me/images/freeapp/hmge/images/mobiledownload.png) 0 -72px;
+    display: block;
+    position: absolute;
+    top: 381px;
+    left: 0;
+    z-index: 2;
+}
+
+.iphone_d_btn {
+    width: 115px;
+    height: 61px;
+    display: block;
+    background: url(http://img.haima.me/images/freeapp/hmge/images/iphone_d_btn.png) no-repeat;
+    position: absolute;
+    top: 304px;
+    left: 0;
+    z-index: 3;
+}
+
+.ipad_d_btn {
+    width: 116px;
+    height: 61px;
+    display: block;
+    background: url(http://img.haima.me/images/freeapp/hmge/images/ipad_d_btn.png) no-repeat;
+    position: absolute;
+    top: 304px;
+    left: 116px;
+    z-index: 3;
+}
+
+.pc_d_btn {
+    width: 235px;
+    height: 61px;
+    display: block;
+    background: url(http://img.haima.me/images/freeapp/hmge/images/pc_d_btn.png) no-repeat;
+    position: absolute;
+    top: 365px;
+    left: 0px;
+    z-index: 3;
+}
+
+.qrcode {
+    width: 111px;
+    height: 111px;
+    padding: 11px 10px 11px 62px;
+    position: absolute;
+    z-index: 2;
+    left: 310px;
+    top: 309px;
+    background: url(http://img.haima.me/images/freeapp/hmge/images/qrcode.png) no-repeat;
+}
+
+    .qrcode img {
+        width: 111px;
+        height: 111px;
+    }
+
+.whitephone {
+    width: 610px;
+    height: 419px;
+    position: absolute;
+    z-index: 1;
+    top: 142px;
+    right: 22px;
+    background: url(http://img.haima.me/images/freeapp/hmge/images/nbg.png) no-repeat;
+}
+
+.ios9bidu {
+    width: 151px;
+    height: 33px;
+    position: absolute;
+    z-index: 2;
+    left: -3px;
+    top: 445px;
+    cursor: pointer;
+}
+
+.sjdlhm {
+    width: 175px;
+    height: 33px;
+    position: absolute;
+    z-index: 2;
+    left: 0;
+    top: 495px;
+}
+
+.top_box p {
+    width: 175px;
+    height: 33px;
+    background: url(http://img.haima.me/images/freeapp/hmge/images/webdownload.png);
+    float: left;
+}
+
+.header {
+    width: 980px;
+    margin: 0 auto;
+    line-height: 80px;
+    position: relative;
+}
+
+.header_add {
+    position: absolute;
+    top: 25px;
+    left: 800px;
+    width: 300px;
+    height: 30px;
+    display:none;
+}
+
+    .header_add > a > .cz {
+        margin-top: 2px;
+        width: 74px;
+        height: 30px;
+        float: left;
+        background-image: url('../../images/1110/2.jpg');
+        border-radius: 5px;
+        color: #000c36;
+        line-height: 30px;
+        font-size: 14px;
+        text-align: center;
+        cursor: pointer;
+    }
+
+    .header_add > .dl {
+        width: 74px;
+        height: 30px;
+        float: left;
+        background-image: url('../../images/1110/1.jpg');
+        border-radius: 5px 0 0 5px;
+        color: #000c36;
+        ;
+        line-height: 30px;
+        font-size: 14px;
+        text-align: right;
+        margin-left: 20px;
+        cursor: pointer;
+    }
+
+    .header_add > a > .zc {
+        width: 74px;
+        height: 30px;
+        float: left;
+        background-image: url('../../images/1110/1.jpg');
+        border-radius: 0 5px 5px 0;
+        color: #000c36;
+        ;
+        line-height: 30px;
+        font-size: 14px;
+        text-align: center;
+        cursor: pointer;
+    }
+
+    .header_add > .yhm {
+        width: 75px;
+        height: 30px;
+        float: left;
+        background-image: url(/images/1110/1.jpg);
+        border-radius: 5px;
+        color: #000c36;
+        ;
+        line-height: 30px;
+        font-size: 14px;
+        text-align: center;
+        margin-left: 20px;
+        cursor: pointer;
+        padding: 0 12px;
+        overflow: hidden;
+        text-overflow: ellipsis;
+        white-space: nowrap;
+        display:none;
+    }
+
+    .header_add > .zx {
+        width: 30px;
+        height: 30px;
+        float: left;
+        color: #70f0f1;
+        line-height: 30px;
+        font-size: 14px;
+        margin-left: 10px;
+        cursor: pointer;
+        text-decoration: underline;
+        display:none;
+    }
+
+.logo {
+    float: left;
+    position: relative;
+}
+
+.wbgz {
+    position: absolute;
+    top: 10px;
+    right: -80px;
+}
+
+.menu {
+    float: right;
+    height: 80px;
+    margin-right: 190px;
+}
+
+    .menu ul li {
+        width: 110px;
+        height: 77px;
+        float: left;
+        line-height: 77px;
+        font-size: 16px;
+        color: #FFFFFF;
+        text-align: center;
+    }
+/* Clearfix */
+.group:after {
+    visibility: hidden;
+    display: block;
+    content: "";
+    clear: both;
+    height: 0;
+}
+
+*:first-child + html .group {
+    zoom: 1;
+}
+/* IE7 */
+
+/* Example One */
+#example-one {
+    margin: 0 auto;
+    list-style: none;
+    position: relative;
+}
+
+    #example-one li {
+        display: inline-block;
+    }
+
+    #example-one a {
+        width: 70px;
+        padding-right: 40px;
+        height: 77px;
+        float: left;
+        line-height: 77px;
+        font-size: 16px;
+        display: block;
+        color: #FFFFFF;
+        text-decoration: none;
+    }
+
+        #example-one a:hover {
+            color: #5ce6e6;
+        }
+
+#magic-line {
+    position: absolute;
+    bottom: -5px;
+    left: 0;
+    width: 70px;
+    height: 5px;
+    background: #5ce6e6;
+}
+
+.current_page_item a {
+    color: #5ce6e6 !important;
+}
+
+.ie6 #example-one li, .ie7 #example-one li {
+    display: inline;
+}
+
+.ie6 #magic-line {
+    bottom: -3px;
+}
+
+#info {
+    width: 980px;
+    height: 720px;
+    padding-top: 60px;
+    margin: auto;
+    background: url(http://img.haima.me/images/freeapp/hmge/images/info_bg_ok.jpg) 0px 0px no-repeat;
+    position: relative;
+}
+
+    #info dl {
+        float: left;
+        position: absolute;
+        z-index: 2;
+        display: block;
+    }
+
+        #info dl dt {
+            float: left;
+            font-size: 30px;
+            margin-bottom: 25px;
+        }
+
+        #info dl dd {
+            float: left;
+            font-size: 16px;
+            color: #7a7a7a;
+        }
+
+.wxyy {
+    width: 440px;
+    height: 164px;
+    background: url(http://img.haima.me/images/freeapp/hmge/images/wuyy.png) top left no-repeat;
+    left: 40px;
+    top: 50px;
+}
+
+    .wxyy dt {
+        padding-left: 160px;
+    }
+
+    .wxyy dd {
+        padding-left: 160px;
+        width: 280px;
+    }
+
+.hsxz {
+    width: 420px;
+    height: 164px;
+    background: url(http://img.haima.me/images/freeapp/hmge/images/hsxz.png) top left no-repeat;
+    left: 510px;
+    bottom: 80px;
+}
+
+    .hsxz dt {
+        padding-left: 190px;
+    }
+
+    .hsxz dd {
+        padding-left: 190px;
+    }
+
+.wxcw {
+    width: 420px;
+    height: 164px;
+    background: url(http://img.haima.me/images/freeapp/hmge/images/wxcw.png) top left no-repeat;
+    left: 40px;
+    top: 290px;
+}
+
+    .wxcw dt {
+        padding-left: 160px;
+    }
+
+    .wxcw dd {
+        padding-left: 160px;
+    }
+
+.zsid {
+    width: 420px;
+    height: 164px;
+    background: url(http://img.haima.me/images/freeapp/hmge/images/zsid.png) 15px 0 no-repeat;
+    left: 510px;
+    top: 290px;
+}
+
+    .zsid dt {
+        padding-left: 190px;
+    }
+
+    .zsid dd {
+        padding-left: 190px;
+    }
+
+.sfdz {
+    width: 420px;
+    height: 164px;
+    background: url(http://img.haima.me/images/freeapp/hmge/images/sfdz.png) 15px 0 no-repeat;
+    left: 510px;
+    top: 50px;
+}
+
+    .sfdz dt {
+        padding-left: 190px;
+    }
+
+    .sfdz dd {
+        padding-left: 190px;
+    }
+
+.bqdr {
+    width: 440px;
+    height: 164px;
+    background: url(http://img.haima.me/images/freeapp/hmge/images/bqdr.png) 10px -3px no-repeat;
+    left: 40px;
+    bottom: 80px;
+}
+
+    .bqdr dt {
+        padding-left: 160px;
+    }
+
+    .bqdr dd {
+        padding-left: 160px;
+        width: 280px;
+    }
+
+.jctj {
+    width: 100%;
+    height: 540px;
+}
+
+.jctj_box {
+    width: 1000px;
+    height: 540px;
+    margin: auto;
+    position: relative;
+}
+
+.left_arrow {
+    width: 81px;
+    height: 81px;
+    background: url(http://img.haima.me/images/freeapp/hmge/images/left_arrow.png) no-repeat;
+    position: absolute;
+    top: 233px;
+    left: -90px;
+    z-index: 2;
+    cursor: pointer;
+}
+
+    .left_arrow:hover {
+        background: url(http://img.haima.me/images/freeapp/hmge/images/left_arrow.png) no-repeat 0 -81px;
+    }
+
+.right_arrow {
+    width: 81px;
+    height: 81px;
+    background: url(http://img.haima.me/images/freeapp/hmge/images/right_arrow.png) no-repeat;
+    position: absolute;
+    top: 233px;
+    right: -90px;
+    z-index: 2;
+    cursor: pointer;
+}
+
+    .right_arrow:hover {
+        background: url(http://img.haima.me/images/freeapp/hmge/images/right_arrow.png) no-repeat 0 -81px;
+    }
+
+.jctj_box h2 {
+    width: 1000px;
+    height: 24px;
+    line-height: 24px;
+    color: #333;
+    font-size: 24px;
+    text-align: center;
+    margin-bottom: 12px;
+}
+
+.hm_box {
+    width: 1000px;
+    height: 492px;
+    overflow: hidden;
+    position: relative;
+}
+
+.hm_list {
+    width: 3000px;
+    height: 492px;
+    position: absolute;
+    left: 0;
+    top: 0;
+}
+
+.jctj ul {
+    width: 1000px;
+    padding-bottom: 31px;
+    padding-top: 20px;
+    float: left;
+}
+
+    .jctj ul li {
+        width: 123px;
+        height: 145px;
+        padding: 0 1px;
+        float: left;
+        display: block;
+        position: relative;
+    }
+
+.jctj_img {
+    width: 79px;
+    height: 79px;
+    margin: auto;
+    position: relative;
+    display: block;
+}
+
+    .jctj_img img {
+        width: 79px;
+        height: 79px;
+    }
+
+.zz_79 {
+    width: 79px;
+    height: 79px;
+    position: absolute;
+    left: 0;
+    top: 0;
+    background: url(http://img.haima.me/images/freeapp/hmge/images/zz_79.png) no-repeat;
+    z-index: 9;
+}
+
+.jctj_nr {
+    width: 123px;
+    height: 36px;
+    padding-top: 5px;
+    padding-bottom: 15px;
+    line-height: 36px;
+    text-align: center;
+    font-size: 12px;
+    color: #333;
+    overflow: hidden;
+    white-space: nowrap;
+}
+
+.az {
+    width: 64px;
+    height: 27px;
+    line-height: 27px;
+    background: url(http://img.haima.me/images/freeapp/hmge/images/ljxz.png) no-repeat;
+    color: #fff;
+    display: block;
+    text-align: center;
+    margin: auto;
+    margin-top: 10px;
+    font-size: 14px;
+}
+
+#big_zz {
+    width: 100px;
+    height: 100px;
+    position: fixed;
+    z-index: 99;
+    background: #000;
+    filter: alpha(opacity=60);
+    filter: progid:DXImageTransform.Microsoft.Alpha(opacity=60);
+    -moz-opacity: 0.6;
+    -khtml-opacity: 0.6;
+    opacity: 0.6;
+    display: none;
+}
+
+.tcbox, .tcbox1, .tcbox2, .tcbox3, .tcbox4, .tc_ipad, .tctongzhi {
+    width: 660px;
+    height: 413px;
+    position: fixed;
+    z-index: 9999;
+    background: #fff;
+}
+
+.tctz {
+    width: 600px;
+    padding: 50px 30px;
+    height: 261px;
+    background: #f2f2f2;
+}
+
+    .tctz p {
+        font-size: 20px;
+        line-height: 48px;
+        text-indent: 30px;
+    }
+
+        .tctz p span {
+            color: #f64545;
+            font-weight: bold;
+        }
+
+.tctop {
+    width: 643px;
+    height: 52px;
+    background: #fff url(tc_images/tctop.png) no-repeat;
+    line-height: 52px;
+}
+
+.tctop {
+    width: 660px;
+    height: 60px;
+    background: #0f6b99;
+    color: #fff;
+    line-height: 60px;
+    font-size: 26px;
+}
+
+.tcbox1 .tccon {
+    width: 660px;
+    height: 353px;
+    background: url(http://img.haima.me/images/freeapp/hmge/images/hmbg.png) no-repeat;
+    position: relative;
+}
+
+.tc_ipad .tccon {
+    width: 660px;
+    height: 353px;
+    background: url(http://img.haima.me/images/freeapp/hmge/images/hmbg.png) no-repeat;
+    position: relative;
+}
+
+.qd_two {
+    width: 104px;
+    height: 104px;
+    background: url(http://img.haima.me/images/freeapp/hmge/images/qd_2w.png) no-repeat;
+    position: absolute;
+    z-index: 99;
+    right: 80px;
+    top: 50px;
+    padding: 8px;
+}
+
+    .qd_two img {
+        width: 104px;
+        height: 104px;
+    }
+
+.tc_nohm {
+    width: 660px;
+    height: 103px;
+    background: url(http://img.haima.me/images/freeapp/hmge/images/no_hm.png) no-repeat;
+    padding-top: 250px;
+}
+
+    .tc_nohm a {
+        width: 236px;
+        height: 60px;
+        background: url(http://img.haima.me/images/freeapp/hmge/images/xiazai.png) no-repeat;
+        display: block;
+        margin: auto;
+        color: #fff;
+        font-size: 22px;
+        text-align: center;
+        line-height: 60px;
+    }
+
+.tc_hmlink {
+    width: 660px;
+    height: 353px;
+    background: url(http://img.haima.me/images/freeapp/hmge/images/link_bg.png) no-repeat;
+}
+
+.tc_hmnofind {
+    width: 660px;
+    height: 353px;
+    background: url(http://img.haima.me/images/freeapp/hmge/images/hm_nofind.png) no-repeat;
+}
+
+    .tc_hmnofind p {
+        font-size: 26px;
+        color: #000;
+        text-align: center;
+        line-height: 1.5em;
+        padding: 5px 0;
+    }
+
+        .tc_hmnofind p a {
+            color: #148fcc;
+        }
+
+.xy_btn {
+    width: 172px;
+    height: 60px;
+    background: url(http://img.haima.me/images/freeapp/hmge/images/xy_btn.png) no-repeat;
+    margin: auto;
+    margin-top: 160px;
+    display: block;
+}
+
+.start_hm {
+    width: 660px;
+    height: 353px;
+    background: url(http://img.haima.me/images/freeapp/hmge/images/start_hm.png) no-repeat;
+    position: relative;
+}
+
+.load {
+    width: 84px;
+    height: 23px;
+    position: absolute;
+    z-index: 9;
+    background: url(http://img.haima.me/images/freeapp/hmge/images/hmload.png) no-repeat;
+    left: 291px;
+    top: 303px;
+}
+
+.start_hm p {
+    font-size: 26px;
+    width: 660px;
+    height: 30px;
+    line-height: 30px;
+    padding-top: 20px;
+    text-align: center;
+}
+
+    .start_hm p a {
+        color: #148fcc;
+    }
+
+.hm_gif {
+    width: 260px;
+    height: 260px;
+    background: url(http://img.haima.me/images/freeapp/hmge/images/hm_web_gif.gif) no-repeat;
+    margin: auto;
+}
+
+    .hm_gif img {
+        width: 146px;
+        height: 146px;
+        padding: 57px;
+    }
+
+.tctop a {
+    float: right;
+    display: block;
+    width: 17px;
+    height: 17px;
+    margin-right: 15px;
+}
+
+.tclogo {
+    width: 500px;
+    padding-left: 143px;
+    height: 110px;
+    text-align: left;
+    font-size: 24px;
+    font-family: "微软雅黑";
+    line-height: 110px;
+    background: url(tc_images/tcbg.png) repeat-y;
+    position: relative;
+}
+
+    .tclogo dl {
+        width: 160px;
+        height: 110px;
+        position: absolute;
+        right: 10px;
+        top: 10px;
+    }
+
+        .tclogo dl dt {
+            width: 80px;
+            height: 80px;
+            display: block;
+            margin: auto;
+            position: relative;
+            line-height: 0;
+        }
+
+        .tclogo dl img {
+            width: 80px;
+            height: 80px;
+        }
+
+        .tclogo dl dd {
+            width: 160px;
+            height: 20px;
+            line-height: 20px;
+            font-size: 14px;
+            text-align: center;
+            display: block;
+            overflow: hidden;
+            white-space: nowrap;
+        }
+
+.zz_90 {
+    width: 80px;
+    height: 80px;
+    background: url(http://img.haima.me/images/freeapp/hmge/images/zz_90.png) no-repeat;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 9;
+}
+
+.tcgc {
+    width: 643px;
+    height: 175px;
+    text-align: center;
+    background: url(tc_images/tcbg.png) repeat-y;
+}
+
+.tcxiazai {
+    width: 643px;
+    height: 75px;
+    line-height: 75px;
+    text-align: center;
+    background: url(tc_images/tcbg.png) repeat-y;
+}
+
+.tcbottom {
+    width: 643px;
+    height: 9px;
+}
+
+.h_show {
+    width: 186px;
+    height: 117px;
+    padding: 17px 14px 10px 25px;
+    display: block;
+    background: url(http://img.haima.me/images/freeapp/hmge/images/h_show.png) no-repeat;
+    position: absolute;
+    top: 0;
+    left: 98px;
+    z-index: 99;
+    overflow: hidden;
+}
+
+    .h_show dt {
+        width: 186px;
+        height: 28px;
+        line-height: 28px;
+        overflow: hidden;
+        white-space: nowrap;
+        text-overflow: ellipsis;
+        font-size: 14px;
+    }
+
+    .h_show dd {
+        width: 186px;
+        height: 84px;
+        overflow: hidden;
+        display: block;
+    }
+
+        .h_show dd p {
+            line-height: 21px;
+        }
+
+.item_1 {
+    width: 353px;
+    height: 160px;
+    padding-left: 93px;
+    padding-top: 24px;
+    font-size: 22px;
+    color: #000;
+    line-height: 2em;
+    margin-bottom: 35px;
+}
+
+    .item_1 dd p {
+        height: 30px;
+        line-height: 30px;
+        font-size: 20px;
+    }
+
+.item_2 {
+    width: 560px;
+    height: 84px;
+    padding-left: 96px;
+    line-height: 56px;
+    font-size: 24px;
+}
+
+    .item_2 a {
+        color: #148fcc;
+        font-size: 24px;
+        text-decoration: underline;
+    }
+
+.item_3 {
+    width: 560px;
+    height: 84px;
+    padding-left: 96px;
+    line-height: 56px;
+}
+
+    .item_3 a {
+        color: #148fcc;
+        font-size: 24px;
+        text-decoration: underline;
+    }
+
+.bqss {
+    width: 980px;
+    height: 78px;
+    background: #f2f2f2;
+    margin: auto;
+    margin-bottom: 40px;
+}
+
+.bzsm {
+    width: 750px;
+    height: 54px;
+    padding: 12px 25px;
+    color: #959595;
+    line-height: 18px;
+    float: left;
+}
+
+    .bzsm span {
+        color: #9c9c9c;
+        font-weight: bold;
+    }
+
+.bqss a {
+    width: 140px;
+    height: 36px;
+    line-height: 36px;
+    display: block;
+    border: 1px solid #a82624;
+    color: #a82624;
+    text-align: center;
+    margin-top: 21px;
+    margin-right: 10px;
+}
+
+.hzhb {
+    width: 980px;
+    margin: auto;
+}
+
+    .hzhb .top {
+        width: 980px;
+        height: 7px;
+        background: url(http://img.haima.me/images/freeapp/hmge/images/hzhb_top.png) no-repeat;
+    }
+
+        .hzhb .top h5 {
+            font-size: 24px;
+            color: #333;
+            line-height: 2px;
+            text-align: center;
+        }
+
+    .hzhb .con {
+        width: 878px;
+        padding: 25px 50px;
+        margin: auto;
+        border-left: 1px solid #e0e0e0;
+        border-right: 1px solid #e0e0e0;
+    }
+
+        .hzhb .con ul a {
+            color: #7b7c7d;
+            margin-right: 20px;
+            line-height: 24px;
+        }
+
+            .hzhb .con ul a:hover {
+                text-decoration: underline;
+            }
+
+    .hzhb .bottom {
+        width: 980px;
+        height: 7px;
+        background: url(http://img.haima.me/images/freeapp/hmge/images/hzhb_bottom.png) no-repeat;
+    }
+
+.foot_menu {
+    width: 1000px;
+    height: 60px;
+    line-height: 60px;
+    margin: auto;
+    margin-bottom: 10px;
+}
+
+    .foot_menu .fl a {
+        margin: 0 10px;
+        font-size: 14px;
+        color: #666;
+    }
+
+.hmryt {
+    height: 48px;
+    line-height: 24px;
+    padding-left: 36px;
+    background: url(http://img.haima.me/images/freeapp/hmge/images/hmryt.png) no-repeat left center;
+    margin-top: 9px;
+    margin-right: 10px;
+}
+
+.foot {
+    width: 100%;
+    height: 150px;
+    background: url(http://img.haima.me/images/freeapp/hmge/images/foot_bg.png) repeat-x;
+}
+
+.foot_box {
+    width: 1000px;
+    height: 108px;
+    padding: 21px 0;
+    margin: auto;
+}
+
+    .foot_box a {
+        color: #888;
+        padding: 0 10px;
+    }
+
+    .foot_box p {
+        line-height: 36px;
+        color: #888;
+        text-align: center;
+        font-size: 14px;
+    }
+
+.banner_box {
+    width: 100%;
+    height: 100px;
+    background: #00458e;
+    margin: auto;
+}
+
+.b_con {
+    width: 980px;
+    height: 100px;
+    background: url(http://img.haima.me/images/freeapp/hmge/images/qq_topbg.jpg) no-repeat;
+    position: relative;
+    margin: auto;
+}
+
+    .b_con a {
+        width: 173px;
+        height: 42px;
+        display: block;
+        position: absolute;
+        z-index: 1;
+        top: 37px;
+        left: 567px;
+    }
+
+.b_closed {
+    width: 27px;
+    height: 30px;
+    background: url(http://img.haima.me/images/freeapp/hmge/images/qq_close.png) no-repeat;
+    position: absolute;
+    z-index: 2;
+    top: 5px;
+    right: 5px;
+    cursor: pointer;
+}
+
+.qq_icon {
+    width: 212px;
+    height: 145px;
+    position: absolute;
+    z-index: 99;
+    background: url(http://img.haima.me/images/freeapp/hmge/images/qq_xf.png) no-repeat;
+    right: -300px;
+    top: 409px;
+    display: none;
+}
+
+.contact {
+    width: 980px;
+    margin: auto;
+}
+
+    .contact h5 {
+        font-size: 16px;
+        height: 48px;
+        line-height: 48px;
+        color: #888;
+    }
+
+    .contact li {
+        height: 36px;
+        line-height: 36px;
+        color: #888;
+        font-size: 14px;
+    }
+
+    .contact span {
+        width: 220px;
+        display: inline-block;
+    }
+
+.dnb_bg {
+    width: 270px;
+    height: 280px;
+    position: absolute;
+    z-index: 9;
+    background: url(http://img.haima.me/images/freeapp/hmge/images/dnb_bg.png) no-repeat;
+    top: 118px;
+    right: -167px;
+}
+
+.dnb_box {
+    width: 270px;
+    height: 280px;
+    position: relative;
+}
+
+.dnb_jump {
+    width: 187px;
+    height: 193px;
+    position: absolute;
+    z-index: 9;
+    bottom: 0;
+    right: 0;
+    background: url(http://img.haima.me/images/freeapp/hmge/images/dnb4.png) no-repeat;
+}
+
+.dnb_dl {
+    width: 318px;
+    height: 250px;
+    background: #fff;
+    position: absolute;
+    z-index: 9;
+    bottom: -80px;
+    right: 0;
+    display: none;
+}
+
+.dnb_dl_info {
+    width: 194px;
+    height: 84px;
+    line-height: 42px;
+    padding: 47px 0 47px 124px;
+    background: url(http://img.haima.me/images/freeapp/hmge/images/1.png) no-repeat 25px 42px;
+    font-size: 20px;
+    color: #666;
+}
+
+.dnb_dl_btn {
+    width: 318px;
+    height: 72px;
+    line-height: 72px;
+    0;
+    background: #156a95;
+    color: #fff;
+    text-align: center;
+    font-size: 22px;
+    display: block;
+}
+
+    .dnb_dl_btn:hover {
+        background: #005e8c;
+    }
+
+.links {
+    width: 980px;
+    margin: auto;
+    border-top: 1px solid #aaa;
+    margin-top: 20px;
+    border-bottom: 1px solid #aaa;
+    padding-bottom: 10px;
+}
+
+    .links h3 {
+        height: 35px;
+        line-height: 35px;
+        color: #000;
+        background: url(http://img.haima.me/images/freeapp/hmge/images/link_arrow.png) no-repeat left center;
+        font-size: 16px;
+        padding-left: 8px;
+    }
+
+    .links ul li {
+        height: 28px;
+        line-height: 28px;
+        display: inline-block;
+        padding: 0 20px;
+        float: left;
+        font-size: 14px;
+        color: #000;
+    }
+
+        .links ul li a {
+            color: #666;
+        }
+
+.s_down_banner {
+    width: 100%;
+    height: 80px;
+    background: #000C36;
+    position: relative;
+    display: none;
+}
+
+.s_down_box {
+    width: 980px;
+    height: 80px;
+    margin: auto;
+    display: block;
+    background: url(http://img.haima.me/images/freeapp/hmge/images/banner_980_80.jpg) no-repeat;
+}
+
+.s_down_banner .close {
+    width: 19px;
+    height: 19px;
+    display: block;
+    position: absolute;
+    top: 5px;
+    right: 5px;
+    z-index: 5;
+    cursor: pointer;
+    background: url(http://img.haima.me/images/freeapp/hmge/images/gb19.png) no-repeat;
+}
+
+.div_yzm {
+    width: 134px;
+    height: 38px;
+    float: right;
+    text-align: right;
+    background: #eeeeee;
+}
+
+.tanchuceng {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 10000;
+    display: none;
+}
+
+    .tanchuceng > .bg {
+        position: fixed;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        background-color: #000000;
+        filter: alpha(opacity=50);
+        -moz-opacity: 0.50;
+        opacity: 0.50;
+    }
+
+    .tanchuceng > .con {
+        position: absolute;
+        width: 534px;
+        height: 300px;
+        background-color: #eeeeee;
+        left: 45%;
+        margin-left: -267px;
+        top: 40%;
+        margin-left: -145px;
+        border-radius: 10px;
+    }
+
+        .tanchuceng > .con > .close {
+            position: absolute;
+            right: 10px;
+            top: 10px;
+            cursor: pointer;
+        }
+
+        .tanchuceng > .con > .div_input {
+            margin: 0 auto;
+            margin-bottom: 12px;
+            width: 444px;
+            height: 38px;
+            background-color: #e5e5e5;
+            color: #333333;
+            font-size: 14px;
+            line-height: 38px;
+            padding-left: 16px;
+        }
+
+            .tanchuceng > .con > .div_input > input {
+                width: 380px;
+                height: 38px;
+                float: right;
+                background-color: transparent;
+                border: 0px;
+            }
+
+        .tanchuceng > .con > .kong {
+            width: 100%;
+            height: 66px;
+        }
+
+        .tanchuceng > .con > .tanchuang_btn {
+            width: 280px;
+            height: 46px;
+            line-height: 43px;
+            color: #ffffff;
+            text-align: center;
+            background-color: #009ed9;
+            font-size: 18px;
+            border-radius: 5px;
+            cursor: pointer;
+            margin: 40px auto;
+        }
